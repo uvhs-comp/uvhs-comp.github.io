@@ -82,7 +82,6 @@ To change the type of a variable use the relevant type function: `int`, `float` 
 <type 'int'>
 ```
 
-
 Operators
 =========
 
@@ -119,7 +118,7 @@ If the operators have same precedence they are evaluated left to right.
 
 ### Example use of `%` and `//`
 
-If you had a variable holding a total number of seconds, however you wanted minutes and seconds. Using `%` and `//` this can easily be calculated.
+If you have a variable holding a total number of seconds, however you wanted minutes and seconds. Using `%` and `//` this can easily be calculated.
 
 ```python
 TotalSeconds = 504
@@ -143,6 +142,14 @@ print and input
 'Hello world'
 ```
 
+`print` can also display the value stored in a variable.
+
+```python
+>>> Language = "Python"
+>>> print(Language)
+'Python'
+```
+
 `input` function
 ----------------
 
@@ -159,12 +166,26 @@ What do you notice about the type of the `MyInput` variable?
 
 ### Fixing the type problem
 
-If you want to get a number from the user using an `input` statement you will need to be sure to convert the inputted value to a number type.
+If you want to get a number from the user using an `input` statement you will need to be sure to convert the inputted value to a number type (either `int` or `float`).
 
-A common way to do this is to wrap the `input` with `int` or `float`, see the example below:
+A common way to do this is to wrap the `input` with `int` or `float`.
+
+**Integer example**
 
 ```python
 >>> MyNumberInput = int(input("Type a number"))
 >>> type(MyNumberInput)
 <type 'int'>
 ```
+
+**Float example**
+
+```python
+>>> MyNumberInput = float(input("Type a number"))
+>>> type(MyNumberInput)
+<type 'float'>
+```
+
+Notes
+=====
+
