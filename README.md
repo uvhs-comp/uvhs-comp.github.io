@@ -162,13 +162,15 @@ type(MyInput)
 
 <span class="label label-success">Have a go</span> Try this a few times typing in different responses such as: Barry, 32, 3.14, 1/2/3 etc...
 
-What do you notice about the type of the `MyInput` variable?
+Q) What do you notice about the type of the `MyInput` variable?
+
+A) It is always a `str`, even if you typed in `12` for example.
 
 ### Fixing the type problem
 
 If you want to get a number from the user using an `input` statement you will need to be sure to convert the inputted value to a number type (either `int` or `float`).
 
-A common way to do this is to wrap the `input` with `int` or `float`.
+A common way to do this is to wrap the `input` statement with `int` or `float`.
 
 **Integer example**
 
