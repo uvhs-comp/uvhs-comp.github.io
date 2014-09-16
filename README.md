@@ -150,6 +150,33 @@ print and input
 'Python'
 ```
 
+### Printing variables
+
+Using `print` you can display messages that include both strings and number values. In a `print` statement you can use `+` or `,` to join together strings and variables.
+
+In this example Python will happily print out the string and the integer on the same line, it will also automatically add a space after the word integer.
+
+```python
+>>> AnInt = 43
+>>> print("This is an integer", AnInt)
+This is an integer 43
+```
+
+However, if you were to use a `+` in this example it will cause an error.
+
+```python
+>>> AnInt = 43
+>>> print("This is an integer " + AnInt)
+```
+
+To fix this example, you would need to convert AnInt to a string type. This makes string concatenation work.
+
+```python
+>>> AnInt = 43
+>>> print("This is an integer " + str(AnInt))
+```
+
+
 `input` function
 ----------------
 
