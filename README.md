@@ -67,6 +67,7 @@ You can ask Python what type a variable is using the `type` function.
 >>> type(TheGreeting)
 <type 'str'>
 ```
+> [Try this >](https://uvhs-comp.trinket.io/comp1#/variables/data-types-part-1)
 
 Changing types
 --------------
@@ -83,6 +84,7 @@ To change the type of a variable use the relevant type function: `int`, `float` 
 >>> type(Age)
 <type 'int'>
 ```
+> [Try this >](https://uvhs-comp.trinket.io/comp1#/variables/data-types-part-2)
 
 Operators
 =========
