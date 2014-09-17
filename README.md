@@ -13,7 +13,7 @@ Think of variables as a boxes that can hold a value. To store a value in a varia
 >>> x + y       # adding two numbers
 3.5
 ```
-> [Try this >](https://uvhs-comp.trinket.io/comp1#/variables/variables-part-1)
+> [Try this &rarr; >](https://uvhs-comp.trinket.io/comp1#/variables/variables-part-1)
 
 The name of the variable can be **anything** you want (as long as it follows a few rules):
 
@@ -31,7 +31,7 @@ The name of the variable can be **anything** you want (as long as it follows a f
 >>> x
 45
 ```
-> [Try this >](https://uvhs-comp.trinket.io/comp1#/variables/variables-part-2)
+> [Try this &rarr; >](https://uvhs-comp.trinket.io/comp1#/variables/variables-part-2)
 
 You will often want to save the value an expression evaluates to, so you can use it later in the program.
 
@@ -67,7 +67,7 @@ You can ask Python what type a variable is using the `type` function.
 >>> type(TheGreeting)
 <type 'str'>
 ```
-> [Try this >](https://uvhs-comp.trinket.io/comp1#/variables/data-types-part-1)
+> [Try this &rarr; >](https://uvhs-comp.trinket.io/comp1#/variables/data-types-part-1)
 
 ### Changing types
 
@@ -83,7 +83,7 @@ To change the type of a variable use the relevant type function: `int`, `float` 
 >>> type(Age)
 <type 'int'>
 ```
-> [Try this >](https://uvhs-comp.trinket.io/comp1#/variables/data-types-part-2)
+> [Try this &rarr; >](https://uvhs-comp.trinket.io/comp1#/variables/data-types-part-2)
 
 Operators
 =========
