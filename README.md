@@ -69,8 +69,7 @@ You can ask Python what type a variable is using the `type` function.
 ```
 > [Try this >](https://uvhs-comp.trinket.io/comp1#/variables/data-types-part-1)
 
-Changing types
---------------
+### Changing types
 
 To change the type of a variable use the relevant type function: `int`, `float` or `str`.
 
