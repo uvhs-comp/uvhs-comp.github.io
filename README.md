@@ -4,7 +4,7 @@ Topics
 Python
 ------
 
-[Python >](/python/)
+[Go to Python >][python]
 
 Notes
 =====
