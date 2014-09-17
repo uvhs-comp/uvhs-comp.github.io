@@ -13,6 +13,7 @@ Think of variables as a boxes that can hold a value. To store a value in a varia
 >>> x + y       # adding two numbers
 3.5
 ```
+> [Try this >](https://uvhs-comp.trinket.io/comp1#/variables/variables-part-1)
 
 The name of the variable can be **anything** you want (as long as it follows a few rules):
 
@@ -30,6 +31,7 @@ The name of the variable can be **anything** you want (as long as it follows a f
 >>> x
 45
 ```
+> [Try this >](https://uvhs-comp.trinket.io/comp1#/variables/variables-part-2)
 
 You will often want to save the value an expression evaluates to, so you can use it later in the program.
 
