@@ -304,7 +304,7 @@ if (Guess == 42):
     print("Well done you guessed correctly.")
 else:
     # if guess is incorrect this code is executed
-    print("You guess wrong. :(")
+    print("You guessed wrong. :(")
 
 # this code will always be executed
 print("End of guessing.")
@@ -313,8 +313,24 @@ print("End of guessing.")
 `elif`
 ------
 
+Python has a 3rd keyword that can be used within `if` statements, this is `elif` which means else if. Using `elif` you can check for other conditions after the initial `if` statement.
 
+You can only have 1 `if` and `else`, but as many `elif`s as you wish.
 
+```python
+Colour = input("What is your favourite colour? ")
+
+if Colour == "red":
+    print("Red is nice.")
+elif Colour == "blue":
+    print("Blue is cool.")
+elif Colour == "green":
+    print("I like green.")
+elif Colour == "yellow":
+    print("Hmmm, yellow.")
+else
+    print("I don't know that colour.")
+```
 
 Notes
 =====
