@@ -288,6 +288,7 @@ if (Guess == 42):
 # this code will always be executed
 print("End of guessing.")
 ```
+> [Try this&nbsp;&rarr; >](https://uvhs-comp.trinket.io/comp1#/selection-statements/if)
 
 There is a weakness in this program, no message is displayed to tell the user they guessed incorrectly. `else` is the solution, keep on reading.
 
@@ -309,6 +310,7 @@ else:
 # this code will always be executed
 print("End of guessing.")
 ```
+> [Try this&nbsp;&rarr; >](https://uvhs-comp.trinket.io/comp1#/selection-statements/else)
 
 `elif`
 ------
@@ -328,9 +330,11 @@ elif Colour == "green":
     print("I like green.")
 elif Colour == "yellow":
     print("Hmmm, yellow.")
-else
+else:
     print("I don't know that colour.")
 ```
+> [Try this&nbsp;&rarr; >](https://uvhs-comp.trinket.io/comp1#/selection-statements/elif)
+
 
 Notes
 =====
