@@ -315,7 +315,7 @@ print("End of guessing.")
 `elif`
 ------
 
-Python has a 3rd keyword that can be used within `if` statements, this is `elif` which means else if. Using `elif` you can check for other conditions after the initial `if` statement.
+Python has a 3rd keyword that can be used within selection statements, this is `elif` which means else if. Using `elif` you can check for other conditions after the initial `if` statement.
 
 You can only have 1 `if` and `else`, but as many `elif`s as you wish.
 
@@ -334,7 +334,6 @@ else:
     print("I don't know that colour.")
 ```
 > [Try this&nbsp;&rarr; >](https://uvhs-comp.trinket.io/comp1#/selection-statements/elif)
-
 
 Notes
 =====
