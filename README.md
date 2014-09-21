@@ -136,6 +136,13 @@ Other uses could be when converting total hours to a 12/24 hour time, can you th
 Boolean expressions
 -------------------
 
+A boolean expression is an expression that Python evaluates to be either `True` or `False`. For example:
+
+```python
+>>> 6 > 4
+True
+```
+
 The standard comparison operators are available to use (note the different style of equal and not equal):
 
 ```python
@@ -159,7 +166,7 @@ Using boolean operators, you can join together multiple boolean expressions or n
 
 `not`
 
-## How to use them?
+### How to use them?
 
 Say you want to check a users age and shoe size, used in conjunction with an `if` statement:
 
@@ -256,6 +263,58 @@ A common way to do this is to wrap the `input` statement with `int` or `float`.
 >>> type(MyNumberInput)
 <type 'float'>
 ```
+
+Selection statements
+====================
+
+`if`
+----
+
+Sometimes you will want to execute a sequence of statements only if a certain condition is met. For example only print out the secret message if the password is typed in correctly.
+
+**"If the Boolean expression after the `if` keyword evaluates to `True` then the rest of the if statement is executed, else control passes to the next statement."**
+
+This means that if the boolean expression is `True` then code that is indented below is executed otherwise it is skipped over.
+
+In Python a colon `:` is always put at the end of `if` statements. This causes your editor to indent on the next line, indicating that the code you are writing is dependant upon the `if` statement condition above.
+
+```python
+Guess = int(input("Guess the number: "))
+
+if (Guess == 42):
+    # if guess is correct this code is executed
+    print("Well done you guessed correctly.")
+
+# this code will always be executed
+print("End of guessing.")
+```
+
+There is a weakness in this program, no message is displayed to tell the user they guessed incorrectly. `else` is the solution, keep on reading.
+
+`else`
+------
+
+What happens if you want to `print` out a message if the user guesses incorrectly.
+
+```python
+Guess = int(input("Guess the number: "))
+
+if (Guess == 42):
+    # if guess is correct this code is executed
+    print("Well done you guessed correctly.")
+else:
+    # if guess is incorrect this code is executed
+    print("You guess wrong. :(")
+
+# this code will always be executed
+print("End of guessing.")
+```
+
+`elif`
+------
+
+
+
 
 Notes
 =====
