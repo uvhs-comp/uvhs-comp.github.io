@@ -13,7 +13,7 @@ Think of variables as a boxes that can hold a value. To store a value in a varia
 >>> x + y       # adding two numbers
 3.5
 ```
-> [Try this &rarr; >](https://uvhs-comp.trinket.io/comp1#/variables/variables-part-1)
+> [Try this&nbsp;&rarr; >](https://uvhs-comp.trinket.io/comp1#/variables/variables-part-1)
 
 The name of the variable can be **anything** you want (as long as it follows a few rules):
 
@@ -31,7 +31,7 @@ The name of the variable can be **anything** you want (as long as it follows a f
 >>> x
 45
 ```
-> [Try this &rarr; >](https://uvhs-comp.trinket.io/comp1#/variables/variables-part-2)
+> [Try this&nbsp;&rarr; >](https://uvhs-comp.trinket.io/comp1#/variables/variables-part-2)
 
 You will often want to save the value an expression evaluates to, so you can use it later in the program.
 
@@ -67,7 +67,7 @@ You can ask Python what type a variable is using the `type` function.
 >>> type(TheGreeting)
 <type 'str'>
 ```
-> [Try this &rarr; >](https://uvhs-comp.trinket.io/comp1#/variables/data-types-part-1)
+> [Try this&nbsp;&rarr; >](https://uvhs-comp.trinket.io/comp1#/variables/data-types-part-1)
 
 ### Changing types
 
@@ -83,7 +83,7 @@ To change the type of a variable use the relevant type function: `int`, `float` 
 >>> type(Age)
 <type 'int'>
 ```
-> [Try this &rarr; >](https://uvhs-comp.trinket.io/comp1#/variables/data-types-part-2)
+> [Try this&nbsp;&rarr; >](https://uvhs-comp.trinket.io/comp1#/variables/data-types-part-2)
 
 Operators
 =========
@@ -131,6 +131,45 @@ SecondsTaken = TotalSeconds % 60
 ```
 
 Other uses could be when converting total hours to a 12/24 hour time, can you think of any others?
+
+
+Boolean expressions
+-------------------
+
+The standard comparison operators are available to use (note the different style of equal and not equal):
+
+```python
+==      # equal to
+<       # less than
+>       # greater than
+<=      # less than or equal to
+>=      # greater than or equal to
+!=      # not equal to
+```
+> [Try this&nbsp;&rarr; >](https://uvhs-comp.trinket.io/comp1#/operators/boolean-expressions-part-1)
+
+Boolean operators
+-----------------
+
+Using boolean operators, you can join together multiple boolean expressions or negate a result. There are 3 boolean operators in Python:
+
+`and`
+
+`or`
+
+`not`
+
+## How to use them?
+
+Say you want to check a users age and shoe size, used in conjunction with an `if` statement:
+
+```python
+Age = int(input("What is your age? "))
+ShoeSize = int(input("What is your shoe size? "))
+
+if (Age > 16) and (ShoeSize > 7):
+  print("Accepted")
+```
 
 print and input
 ===============
