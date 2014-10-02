@@ -264,6 +264,126 @@ A common way to do this is to wrap the `input` statement with `int` or `float`.
 <type 'float'>
 ```
 
+String
+======
+
+A string is made up of characters.
+
+Each character can be accessed using an index, starting at zero.
+
+
+Boolean operators
+-----------------
+
+All the standard boolean operators work on strings.
+
+```python
+>>> "A" < "B"
+True
+>>> "apple" == "orange"
+False
+>>> "bill" != "bob"
+True
+```
+
+Membership
+----------
+
+**`in`**
+
+The `in` keyword allows you to check if a substring is within a string, alternatively search the haystack for a needle.
+
+```python
+>>> "ab" in "abc"
+True
+>>> "bear" in "the woods"
+False
+```
+
+**`not in`**
+
+`not` can be used in conjuction to check if a substring is absent from string.
+
+```python
+>>> "ab" not in "abc"
+False
+>>> "bear" not in "the woods"
+True
+```
+
+Slicing
+-------
+
+### Single character
+
+An example of using the zero-based index for strings.
+
+`String: "Hello world!"`
+`---------------------------------------------------`
+`| H | e | l | l | o |   | w | o | r | l | d  | !  |`
+`---------------------------------------------------`
+`| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |`
+`---------------------------------------------------`
+
+The character at index 6 is "w" - lowercase w.
+
+The character at index 5 is " " - space.
+
+To grab a single character from a string in Python, use square brackets directly after the string or variable holding the string with the index in it.
+
+```python
+Phrase = "Hello world!"
+LetterH = Phrase[0]
+Exclamation = Phrase[11]
+print("Letter H", LetterH)
+print("Excalmation", Exclamation)
+```
+[Try this&nbsp;&rarr; >](https://uvhs-comp.trinket.io/comp1#/strings/single-letter-slice)
+
+### Range slice
+
+Using the idea above, you can extend it to select a range of letters.
+
+Inside the square brackets, add a colon and it allows you to specify the start and end index (this is exclusive).
+
+`MyString[start:end]`
+
+Some examples of this being used:
+
+```python
+Phrase = "Hello world!"
+FirstWord = Phrase[0:5]
+SecondWord = Phrase[6:11]
+print("The first word is", FirstWord)
+print("The second word is", SecondWord)
+```
+[Try this&nbsp;&rarr; >](https://trinket.io/uvhs-comp/courses/comp1#/strings/range-slice)
+
+You can use the range slice in some interesting ways:
+
+`Phrase = "Hello world!"`
+
+`[3:]` &rarr; 3rd index to end of string ("lo world!")
+
+`[:3]` &rarr; 0 index to 3rd index exclusive ("Hel")
+
+```python
+Phrase = "Hello world!"
+ThreeChars = Phrase[:3]
+Leftover = Phrase[3:]
+print("First 3 characters", ThreeChars)
+print("Leftover", Leftover)
+```
+[Try this&nbsp;&rarr; >](https://trinket.io/uvhs-comp/courses/comp1#/strings/range-slice-alternatives)
+
+### Further reading on strings
+
+[Strings in Python >](http://www.tutorialspoint.com/python/python_strings.htm)
+
+[Common string operations >](https://docs.python.org/3.4/library/string.html)
+
+[String methods >](https://docs.python.org/3.4/library/stdtypes.html#string-methods)
+
 Selection statements
 ====================
 
