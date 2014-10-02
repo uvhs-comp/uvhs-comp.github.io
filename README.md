@@ -272,10 +272,10 @@ A string is made up of characters.
 Each character can be accessed using an index, starting at zero.
 
 
-Boolean operators
------------------
+Boolean expressions
+-------------------
 
-All the standard boolean operators work on strings.
+All the standard boolean expressions work on strings.
 
 ```python
 >>> "A" < "B"
