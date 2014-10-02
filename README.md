@@ -319,11 +319,17 @@ Slicing
 An example of using the zero-based index for strings.
 
 `String: "Hello world!"`
+
 `---------------------------------------------------`
+
 `| H | e | l | l | o |   | w | o | r | l | d  | !  |`
+
 `---------------------------------------------------`
+
 `| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |`
+
 `---------------------------------------------------`
+
 
 The character at index 6 is "w" - lowercase w.
 
@@ -338,7 +344,7 @@ Exclamation = Phrase[11]
 print("Letter H", LetterH)
 print("Excalmation", Exclamation)
 ```
-[Try this&nbsp;&rarr; >](https://uvhs-comp.trinket.io/comp1#/strings/single-letter-slice)
+> [Try this&nbsp;&rarr; >](https://uvhs-comp.trinket.io/comp1#/strings/single-letter-slice)
 
 ### Range slice
 
@@ -357,7 +363,7 @@ SecondWord = Phrase[6:11]
 print("The first word is", FirstWord)
 print("The second word is", SecondWord)
 ```
-[Try this&nbsp;&rarr; >](https://trinket.io/uvhs-comp/courses/comp1#/strings/range-slice)
+> [Try this&nbsp;&rarr; >](https://trinket.io/uvhs-comp/courses/comp1#/strings/range-slice)
 
 You can use the range slice in some interesting ways:
 
@@ -374,7 +380,7 @@ Leftover = Phrase[3:]
 print("First 3 characters", ThreeChars)
 print("Leftover", Leftover)
 ```
-[Try this&nbsp;&rarr; >](https://trinket.io/uvhs-comp/courses/comp1#/strings/range-slice-alternatives)
+> [Try this&nbsp;&rarr; >](https://trinket.io/uvhs-comp/courses/comp1#/strings/range-slice-alternatives)
 
 ### Further reading on strings
 
