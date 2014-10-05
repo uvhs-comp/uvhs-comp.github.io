@@ -300,6 +300,24 @@ True
 False
 ```
 
+Membership can also be used as an alternative to multiple boolean expressions joined by `or`s.
+
+In the colour example, the value stored in `Colour` is checked against each string in the array. If it matches (`==`) one, then the expression evaluates to `True`.
+
+```python
+Colour = "Pink"
+if Colour == "Red" or Colour == "Blue" or Colour == "Yellow":
+    print("It's a primary colour.")
+else:
+    print("Not a primary colour.")
+
+# can become...
+if Colour in ["Red", "Blue", "Yellow"]:
+    print("It's a primary colour.")
+else:
+    print("Not a primary colour.")
+```
+
 **`not in`**
 
 `not` can be used in conjuction to check if a substring is absent from string.
